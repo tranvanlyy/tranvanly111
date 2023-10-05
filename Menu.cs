@@ -45,5 +45,10 @@ namespace Example01
             Form4 mainmenu = new Form4();
             mainmenu.ShowDialog(this);
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ///123
+        }
     }
 }
