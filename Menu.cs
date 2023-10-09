@@ -48,7 +48,13 @@ namespace Example01
 
         private void button5_Click(object sender, EventArgs e)
         {
-            ///123
+           
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            Form5 mainmenu = new Form5();
+            mainmenu.ShowDialog(this);
         }
     }
 }
